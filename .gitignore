@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# 上游源码（只读参考，不提交）
+external/vllm/
+external/vllm-omni/
+
+# 模型权重与大文件
+models/
+*.safetensors
+*.safetensors.index.json
+*.bin
+*.gguf
+*.pt
+*.pth
+*.onnx
+
+# 运行产物
+*.log
+results/**/*.log
+nohup.out
+*.pid
+.cache/
+
+# 本地配置与密钥
+.env
+.env.local
+*.local.yaml
+configs/**/*.local.*
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

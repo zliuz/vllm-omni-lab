@@ -1,0 +1,19 @@
+# 项目 1 网关配置示例（复制为 gateway.local.yaml 后修改）
+listen: 0.0.0.0:9000
+
+upstreams:
+  - name: vllm-a
+    base_url: http://127.0.0.1:8000
+  - name: vllm-b
+    base_url: http://127.0.0.1:8001
+
+# round_robin | least_inflight
+routing: least_inflight
+
+timeout:
+  connect_s: 5
+  read_s: 300
+
+retry:
+  max_attempts: 2
+  backoff_s: 0.2

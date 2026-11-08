@@ -1,0 +1,8 @@
+{"prompt": "用三句话解释什么是 continuous batching。", "output_tokens": 128}
+{"prompt": "What is PagedAttention and why does it reduce memory fragmentation?", "output_tokens": 128}
+{"prompt": "写一个 Python 函数，计算斐波那契数列第 n 项，并说明时间复杂度。", "output_tokens": 160}
+{"prompt": "Summarize the trade-offs between tensor parallelism and data parallelism for inference on consumer GPUs without NVLink.", "output_tokens": 192}
+{"prompt": "给定一段客服对话，提取用户姓名、订单号和投诉原因，输出 JSON。对话：你好，我是李明，订单 A10293 至今未发货，请尽快处理。", "output_tokens": 128}
+{"prompt": "Explain the difference between TTFT and TPOT in LLM serving, and how concurrency affects each.", "output_tokens": 160}
+{"prompt": "请把下面这句话翻译成英文：在显存有限的情况下，优先降低最大上下文长度，再考虑量化。", "output_tokens": 96}
+{"prompt": "Write a short bash script that starts a vLLM OpenAI-compatible server on port 8000 with a 7B model and 8k context.", "output_tokens": 192}

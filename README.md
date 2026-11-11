@@ -52,6 +52,7 @@ vLLM-base/
 ├── README.md                  # 本文件：总览、状态、快速开始
 ├── AGENTS.md                  # AI 代理与贡献者的工作规范（唯一规范来源）
 ├── CLAUDE.md                  # Claude Code 入口，引用 AGENTS.md
+├── CONTRIBUTORS.md            # 维护者与 AI 辅助贡献署名
 ├── requirements-dev.txt       # 本地工具链（不含 vllm 本身）
 ├── Makefile                   # 常用命令入口
 ├── docs/
@@ -143,6 +144,13 @@ vllm download-kernels                          # 需要 GitHub 代理
 - [docs/source-map.md](docs/source-map.md)：vLLM / vLLM-Omni 源码入口
 - [docs/experiments/TEMPLATE.md](docs/experiments/TEMPLATE.md)：实验记录模板
 - [benchmarks/README.md](benchmarks/README.md)：压测工具与 prompt 集说明
+
+## Contributors
+
+- [zliuz](https://github.com/zliuz)：项目维护者与学习者。
+- **OpenAI Codex**：AI 编程助手，协助项目 0 的代码、测试、实验与文档工作。
+
+完整署名与贡献说明见 [CONTRIBUTORS.md](CONTRIBUTORS.md)。
 
 ## 注意事项
 

@@ -1,0 +1,11 @@
+{
+  "health_status": 200,
+  "server_version": {
+    "version": "0.32.0"
+  },
+  "prefix_caching_still_enabled": true,
+  "original_server_pid_and_command_unchanged": true,
+  "installed_official_source_hashes_unchanged": true,
+  "checked_local_links": 20,
+  "bash_blocks_syntax_checked": 2
+}

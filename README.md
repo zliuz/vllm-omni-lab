@@ -8,7 +8,7 @@ vLLM / vLLM-Omni 项目驱动学习仓库。
 
 | 项目 | 内容 | 周期 | 状态 |
 |---|---|---|---|
-| [0](project0-baseline/) | 环境 + 基线压测 | 1 周 | ⬜ 未开始 |
+| [0](project0-baseline/) | 环境 + 基线压测 | 1 周 | 🟨 进行中：开启缓存基线与官方吞吐对照完成，关闭组待测 |
 | [1](project1-gateway/) | 推理网关 + 调度实验 | 2 周 | ⬜ 未开始 |
 | [2](project2-omni-voice/) | vLLM-Omni 实时语音助手 | 3 周 | ⬜ 未开始 |
 | [3](project3-perf/) | 小特性 / 性能实验 | 2 周 | ⬜ 未开始 |
@@ -96,6 +96,16 @@ bash project0-baseline/scripts/serve.sh
 
 也可以使用 `make check-env` / `make setup` / `make clone` / `make download`。
 
+安装固定版本的 vLLM / vLLM-Omni：
+
+```bash
+source .venv/bin/activate
+uv pip install -r requirements-vllm.txt        # vLLM 0.32.0 + vLLM-Omni 0.32.0
+vllm download-kernels                          # 需要 GitHub 代理
+```
+
+> **本机环境注意**：GPU0 可能被其他用户占用，先看 `nvidia-smi`；HF 直连不可用，需 `HF_ENDPOINT=https://hf-mirror.com`；GitHub 需本地代理 `http://127.0.0.1:27897`。详见 [docs/environment.md](docs/environment.md)。
+
 > 模型仓库名与 vLLM-Omni 支持的模型会随版本变化，**以仓库 README 的 Supported Models 和实际下载结果为准**。下载脚本中的默认值仅作示例。
 
 ## 实验与记录规范
@@ -129,6 +139,7 @@ bash project0-baseline/scripts/serve.sh
 
 - [AGENTS.md](AGENTS.md)：代理/贡献者规范、常用命令、Definition of Done、禁止事项
 - [docs/environment.md](docs/environment.md)：本机驱动、CUDA、Python、版本锁定
+- [docs/docker.md](docs/docker.md)：Docker / NVIDIA Container Toolkit 的作用、安装、Compose 示例与常见问题
 - [docs/source-map.md](docs/source-map.md)：vLLM / vLLM-Omni 源码入口
 - [docs/experiments/TEMPLATE.md](docs/experiments/TEMPLATE.md)：实验记录模板
 - [benchmarks/README.md](benchmarks/README.md)：压测工具与 prompt 集说明

@@ -1,0 +1,30 @@
+{
+  "started_local": "2026-11-11T12:08:28.992331+08:00",
+  "finished_local": "2026-11-11T13:05:01.887303+08:00",
+  "max_absolute_throughput_difference_percent": 1.0725670363879836,
+  "formal_prefix_hit_tokens": 592128.0,
+  "formal_prefix_query_tokens": 645216.0,
+  "max_ttft_ms": 229.71634397981688,
+  "max_latency_s": 2.583109019033145,
+  "formal_ttft_over_1s": 0,
+  "output_tokens_mean_by_concurrency": {
+    "1": 105.453125,
+    "8": 105.61002604166667,
+    "32": 105.29557291666667,
+    "64": 105.349609375
+  },
+  "ttft_p99_difference_over_20_percent": [
+    {
+      "concurrency": 8,
+      "custom_ms": 65.40274585597217,
+      "official_ms": 50.50827966304495,
+      "difference_percent": -22.773456982566653
+    },
+    {
+      "concurrency": 64,
+      "custom_ms": 250.63061617896892,
+      "official_ms": 191.45477065059822,
+      "difference_percent": -23.610780849740532
+    }
+  ]
+}

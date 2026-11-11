@@ -1,0 +1,9 @@
+{
+  "pytest_command": ".venv/bin/python -m pytest project0-baseline/tests -q",
+  "pytest_exit_code": 0,
+  "pytest_passed": 95,
+  "ruff_command": ".venv/bin/ruff check project0-baseline/scripts/bench.py project0-baseline/tests",
+  "ruff_exit_code": 0,
+  "changed_files_diff_check_exit_code": 0,
+  "preexisting_global_diff_check_issue": ".gitignore:48: new blank line at EOF; file not changed in this task"
+}

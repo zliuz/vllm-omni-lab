@@ -1,0 +1,18 @@
+{"event": "started"}
+{"event": "batch_completed", "phase": "warmup", "concurrency": 1, "round": 0, "elapsed_s": 209.34535566397244}
+{"event": "batch_completed", "phase": "measured", "concurrency": 1, "round": 1, "elapsed_s": 838.6397378579713}
+{"event": "batch_completed", "phase": "measured", "concurrency": 1, "round": 2, "elapsed_s": 838.716360824008}
+{"event": "batch_completed", "phase": "measured", "concurrency": 1, "round": 3, "elapsed_s": 838.6407331199734}
+{"event": "batch_completed", "phase": "warmup", "concurrency": 8, "round": 0, "elapsed_s": 28.023368787020445}
+{"event": "batch_completed", "phase": "measured", "concurrency": 8, "round": 1, "elapsed_s": 108.34601789101725}
+{"event": "batch_completed", "phase": "measured", "concurrency": 8, "round": 2, "elapsed_s": 108.40339310496347}
+{"event": "batch_completed", "phase": "measured", "concurrency": 8, "round": 3, "elapsed_s": 108.37778571603121}
+{"event": "batch_completed", "phase": "warmup", "concurrency": 32, "round": 0, "elapsed_s": 8.8260191839654}
+{"event": "batch_completed", "phase": "measured", "concurrency": 32, "round": 1, "elapsed_s": 31.672883187013213}
+{"event": "batch_completed", "phase": "measured", "concurrency": 32, "round": 2, "elapsed_s": 31.60826285503572}
+{"event": "batch_completed", "phase": "measured", "concurrency": 32, "round": 3, "elapsed_s": 31.653562410036102}
+{"event": "batch_completed", "phase": "warmup", "concurrency": 64, "round": 0, "elapsed_s": 4.974285536038224}
+{"event": "batch_completed", "phase": "measured", "concurrency": 64, "round": 1, "elapsed_s": 17.755084411997814}
+{"event": "batch_completed", "phase": "measured", "concurrency": 64, "round": 2, "elapsed_s": 24.214822490001097}
+{"event": "batch_completed", "phase": "measured", "concurrency": 64, "round": 3, "elapsed_s": 17.71582879399648}
+{"event": "completed"}

@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "formal_requests": 6144,
+  "warmup_requests": 512,
+  "total_output_tokens": 701739,
+  "gpu_samples": 3255,
+  "server_counter_match": true,
+  "percentile_recomputed": true,
+  "all_throughput_within_20_percent": true,
+  "timing_definitions_identical": false,
+  "checks": [
+    "all phases exit 0 and complete expected request counts",
+    "server requests/tokens match each phase",
+    "no preemptions",
+    "raw arrays lengths and success/errors",
+    "token cap and throughput recomputation",
+    "all TTFT/TPOT/E2EL/ITL percentiles independently recomputed",
+    "128 prompts repeated four times in order",
+    "original server PID/command unchanged",
+    "GPU sample errors absent"
+  ]
+}

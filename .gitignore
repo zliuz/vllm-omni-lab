@@ -8,36 +8,78 @@ venv/
 .ruff_cache/
 .mypy_cache/
 .ipynb_checkpoints/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+build/
+dist/
 
-# 上游源码（只读参考，不提交）
-external/vllm/
-external/vllm-omni/
+# 上游源码仅保留目录说明与占位文件；安装/克隆产物不提交
+/external/*
+!/external/README.md
+!/external/.gitkeep
 
 # 模型权重与大文件
-models/
+/models/
 *.safetensors
 *.safetensors.index.json
 *.bin
 *.gguf
 *.pt
 *.pth
+*.ckpt
 *.onnx
 
 # 运行产物
 *.log
-results/**/*.log
 nohup.out
 *.pid
 .cache/
+.triton/
+.torchinductor/
+
+# 性能分析器生成的大型 trace
+*.nsys-rep
+*.ncu-rep
+*.pt.trace.json
+*.pt.trace.json.gz
+
+# 压测原始明细仅在本地归档；不忽略整个 results/ 或全部 JSON/JSONL
+# 保留报告、汇总 CSV、图表、GPU 采样、运行配置、校验结果与 prompt 集
+**/results/**/requests.jsonl
+/project0-baseline/results/**/c[0-9]*-round[0-9]*.json
+/project0-baseline/results/**/c[0-9]*-warmup.json
+
+# 官方工具的重复源码/帮助快照可从固定版本重新获取
+**/results/**/official-*-source.py
+**/results/**/official-help.txt
+
+# 已整理进实验报告的自动生成表格片段
+**/results/**/readme-table.md
+**/results/**/rounds-table.md
+**/results/**/tables.md
 
 # 本地配置与密钥
 .env
-.env.local
-*.local.yaml
-configs/**/*.local.*
+.env.*
+*.local.*
+!.env.example
+!.env.*.example
+!*.local.*.example
 
 # 系统与编辑器
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
+
+# 临时文件
+/tmp/
+/temp/
+*.tmp
+*.swp
+*.swo
+*~

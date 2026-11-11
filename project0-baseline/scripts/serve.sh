@@ -5,7 +5,7 @@
 # 可覆盖的环境变量：PORT TP MAX_MODEL_LEN GPU_MEM_UTIL MAX_NUM_SEQS EXTRA_ARGS
 set -euo pipefail
 
-MODEL="${1:-${MODEL:-Qwen/Qwen2.5-7B-Instruct}}"
+MODEL="${1:-${MODEL:-models/Qwen2.5-7B-Instruct}}"
 PORT="${PORT:-8000}"
 TP="${TP:-1}"
 MAX_MODEL_LEN="${MAX_MODEL_LEN:-8192}"
@@ -19,6 +19,7 @@ if ! command -v vllm >/dev/null 2>&1; then
   exit 1
 fi
 
+echo "cuda_visible_devices=${CUDA_VISIBLE_DEVICES:-<unset: 所有 GPU 可见>}"
 echo "model=$MODEL port=$PORT tp=$TP max_model_len=$MAX_MODEL_LEN extra='$EXTRA_ARGS'"
 
 # EXTRA_ARGS 需要按空格拆分，故意不加引号

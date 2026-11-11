@@ -1,0 +1,2 @@
+{"event": "phase_start", "label": "c1-warmup", "count": 128, "utc": "2026-11-11T04:07:39.553289+00:00", "perf_counter": 406572.375726991}
+{"event": "phase_end", "label": "c1-warmup", "exit_code": 1, "completed": null, "failed": null, "duration": null, "output_throughput": null, "utc": "2026-11-11T04:07:49.639987+00:00", "perf_counter": 406582.462423322}

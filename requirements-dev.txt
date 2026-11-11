@@ -10,3 +10,7 @@ pytest-asyncio>=0.24
 ruff>=0.7
 rich>=13
 matplotlib>=3.9
+# 官方 vllm bench serve 的 custom JSONL 数据集加载器使用 pandas
+pandas>=2.2,<3
+# 模型下载工具：国内网络优先 ModelScope（见 scripts/download_models.sh）
+modelscope>=1.40

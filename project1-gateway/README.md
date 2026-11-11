@@ -44,7 +44,7 @@ vLLM :8000        vLLM :8001
 - [ ] Docker Compose 一键启动（网关 + 2 后端）
 - [ ] 简单的 Web 压测面板
 
-> 本机当前**未安装 Docker / nvidia-container-toolkit**。先用 `venv + tmux`（或 systemd）跑通网关与两个后端；Compose 作为后续可选增强。
+> 本机当前**未安装 Docker / nvidia-container-toolkit**。先用 `venv + tmux`（或 systemd）跑通网关与两个后端；Compose 作为后续可选增强。Docker 的作用、安装步骤与 Compose 示例见 [docs/docker.md](../docs/docker.md)。
 
 ## 核心实验（本项目的重点）
 

@@ -1,0 +1,101 @@
+{
+  "started_at_utc": "2026-11-10T14:05:55.118072+00:00",
+  "benchmark_command": [
+    "/home/zliuz/projects/vLLM-base/.venv/bin/python",
+    "-u",
+    "project0-baseline/scripts/bench.py",
+    "--model",
+    "models/Qwen2.5-7B-Instruct",
+    "--prompts",
+    "benchmarks/prompts/baseline-v1.jsonl",
+    "--concurrency",
+    "1",
+    "8",
+    "32",
+    "64",
+    "--requests",
+    "512",
+    "--warmup",
+    "128",
+    "--rounds",
+    "3",
+    "--timeout",
+    "120",
+    "--temperature",
+    "0",
+    "--output-dir",
+    "/home/zliuz/projects/vLLM-base/project0-baseline/results/20261110T140555_003380Z_prefix-on_8114dafc"
+  ],
+  "benchmark_command_shell": "/home/zliuz/projects/vLLM-base/.venv/bin/python -u project0-baseline/scripts/bench.py --model models/Qwen2.5-7B-Instruct --prompts benchmarks/prompts/baseline-v1.jsonl --concurrency 1 8 32 64 --requests 512 --warmup 128 --rounds 3 --timeout 120 --temperature 0 --output-dir /home/zliuz/projects/vLLM-base/project0-baseline/results/20261110T140555_003380Z_prefix-on_8114dafc",
+  "server_command": [
+    "/home/zliuz/projects/vLLM-base/.venv/bin/python",
+    "/home/zliuz/projects/vLLM-base/.venv/bin/vllm",
+    "serve",
+    "models/Qwen2.5-7B-Instruct",
+    "--port",
+    "8000",
+    "--tensor-parallel-size",
+    "1",
+    "--max-model-len",
+    "8192",
+    "--gpu-memory-utilization",
+    "0.90",
+    "--max-num-seqs",
+    "64"
+  ],
+  "server_environment_allowlist": {
+    "CUDA_VISIBLE_DEVICES": "1"
+  },
+  "server_info": {
+    "status_code": 404
+  },
+  "models": {
+    "object": "list",
+    "data": [
+      {
+        "id": "models/Qwen2.5-7B-Instruct",
+        "object": "model",
+        "created": 1794319555,
+        "owned_by": "vllm",
+        "root": "models/Qwen2.5-7B-Instruct",
+        "parent": null,
+        "max_model_len": 8192,
+        "permission": [
+          {
+            "id": "modelperm-bf2ef0771194fca1",
+            "object": "model_permission",
+            "created": 1794319555,
+            "allow_create_engine": false,
+            "allow_sampling": true,
+            "allow_logprobs": true,
+            "allow_search_indices": false,
+            "allow_view": true,
+            "allow_fine_tuning": false,
+            "organization": "*",
+            "group": null,
+            "is_blocking": false
+          }
+        ]
+      }
+    ]
+  },
+  "client_python": "3.12.16",
+  "packages": {
+    "vllm": "0.32.0",
+    "vllm-omni": "0.32.0",
+    "torch": "2.13.0",
+    "transformers": "5.19.0",
+    "httpx": "0.28.1"
+  },
+  "prompts_sha256": "a624abd107e8bb3abf3737d4dc33bab4443c678292c721beca42c02435b9c009",
+  "client_source_sha256": "a2b75ab8964e8c636a979cea10f6454269e92d5074b7a2b11c3472d4c413920c",
+  "gpu_sampling_interval_s": 1.0,
+  "gpu_sampling_command": [
+    "nvidia-smi",
+    "--id=1",
+    "--query-gpu=index,memory.used,memory.free,utilization.gpu,temperature.gpu,power.draw",
+    "--format=csv,noheader,nounits"
+  ],
+  "gpu_sample_clock": "time.perf_counter; same host clock as raw RequestResult timestamps",
+  "cache_counters_window": "whole benchmark including warmup; existing service not restarted or reset"
+}

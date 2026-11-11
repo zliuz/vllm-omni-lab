@@ -1,0 +1,31 @@
+{
+  "finished_at_utc": "2026-11-11T04:07:49.698454+00:00",
+  "phases": [
+    {
+      "label": "c1-warmup",
+      "exit_code": 1,
+      "completed": null,
+      "failed": null,
+      "duration": null,
+      "output_throughput": null
+    }
+  ],
+  "source_prompt_sha256_after": "a624abd107e8bb3abf3737d4dc33bab4443c678292c721beca42c02435b9c009",
+  "server_pid_still_present": true,
+  "server_command_after": [
+    "/home/zliuz/projects/vLLM-base/.venv/bin/python",
+    "/home/zliuz/projects/vLLM-base/.venv/bin/vllm",
+    "serve",
+    "models/Qwen2.5-7B-Instruct",
+    "--port",
+    "8000",
+    "--tensor-parallel-size",
+    "1",
+    "--max-model-len",
+    "8192",
+    "--gpu-memory-utilization",
+    "0.90",
+    "--max-num-seqs",
+    "64"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "finished_at_utc": "2026-11-11T05:05:01.887303+00:00",
+  "phases": [
+    {
+      "label": "c1-warmup",
+      "exit_code": 0,
+      "completed": 128,
+      "failed": 0,
+      "duration": 209.54385327600176,
+      "output_throughput": 64.41611046553125
+    },
+    {
+      "label": "c1-round1",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 837.9130449499935,
+      "output_throughput": 64.43628050118522
+    },
+    {
+      "label": "c1-round2",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 837.771911539021,
+      "output_throughput": 64.44713561811174
+    },
+    {
+      "label": "c1-round3",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 837.6115966719808,
+      "output_throughput": 64.45947049267507
+    },
+    {
+      "label": "c8-warmup",
+      "exit_code": 0,
+      "completed": 128,
+      "failed": 0,
+      "duration": 27.97687978600152,
+      "output_throughput": 483.54212848170636
+    },
+    {
+      "label": "c8-round1",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 108.2764161460218,
+      "output_throughput": 499.342349187889
+    },
+    {
+      "label": "c8-round2",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 108.33062396699097,
+      "output_throughput": 499.1663300718825
+    },
+    {
+      "label": "c8-round3",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 108.31197134195827,
+      "output_throughput": 499.2522925215399
+    },
+    {
+      "label": "c32-warmup",
+      "exit_code": 0,
+      "completed": 128,
+      "failed": 0,
+      "duration": 8.66421039198758,
+      "output_throughput": 1557.9030736006332
+    },
+    {
+      "label": "c32-round1",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 31.17193465901073,
+      "output_throughput": 1729.472379232522
+    },
+    {
+      "label": "c32-round2",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 31.424965337035246,
+      "output_throughput": 1717.1379322543078
+    },
+    {
+      "label": "c32-round3",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 31.297182582027745,
+      "output_throughput": 1720.9855826105572
+    },
+    {
+      "label": "c64-warmup",
+      "exit_code": 0,
+      "completed": 128,
+      "failed": 0,
+      "duration": 4.905594587966334,
+      "output_throughput": 2746.0483654815316
+    },
+    {
+      "label": "c64-round1",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 17.565367947972845,
+      "output_throughput": 3071.8400069852846
+    },
+    {
+      "label": "c64-round2",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 17.457948603027035,
+      "output_throughput": 3089.5955318970114
+    },
+    {
+      "label": "c64-round3",
+      "exit_code": 0,
+      "completed": 512,
+      "failed": 0,
+      "duration": 17.553592440031935,
+      "output_throughput": 3071.7928642931342
+    }
+  ],
+  "source_prompt_sha256_after": "a624abd107e8bb3abf3737d4dc33bab4443c678292c721beca42c02435b9c009",
+  "server_pid_still_present": true,
+  "server_command_after": [
+    "/home/zliuz/projects/vLLM-base/.venv/bin/python",
+    "/home/zliuz/projects/vLLM-base/.venv/bin/vllm",
+    "serve",
+    "models/Qwen2.5-7B-Instruct",
+    "--port",
+    "8000",
+    "--tensor-parallel-size",
+    "1",
+    "--max-model-len",
+    "8192",
+    "--gpu-memory-utilization",
+    "0.90",
+    "--max-num-seqs",
+    "64"
+  ]
+}

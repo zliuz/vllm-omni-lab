@@ -1,0 +1,5 @@
+# 固定版本：vLLM 与 vLLM-Omni 必须成对升级
+# 安装：source .venv/bin/activate && uv pip install -r requirements-vllm.txt
+# 安装后执行：vllm download-kernels（GitHub 需代理）
+vllm==0.32.0
+vllm-omni==0.32.0

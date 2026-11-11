@@ -1,0 +1,136 @@
+{"event": "phase_start", "label": "c1-warmup", "count": 128, "utc": "2026-11-11T04:08:29.035020+00:00", "perf_counter": 406621.857458976}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 30.001043827971444, "utc": "2026-11-11T04:08:59.036069+00:00", "perf_counter": 406651.858525282}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 60.00135362998117, "utc": "2026-11-11T04:09:29.036378+00:00", "perf_counter": 406681.858834549}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 90.0016850969987, "utc": "2026-11-11T04:09:59.036710+00:00", "perf_counter": 406711.859165693}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 120.00199147796957, "utc": "2026-11-11T04:10:29.037016+00:00", "perf_counter": 406741.859473284}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 150.00230636098422, "utc": "2026-11-11T04:10:59.037329+00:00", "perf_counter": 406771.859783095}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 180.00260181498015, "utc": "2026-11-11T04:11:29.037625+00:00", "perf_counter": 406801.860074906}
+{"event": "progress", "label": "c1-warmup", "elapsed_s": 210.00286331499228, "utc": "2026-11-11T04:11:59.037887+00:00", "perf_counter": 406831.860342242}
+{"event": "phase_end", "label": "c1-warmup", "exit_code": 0, "completed": 128, "failed": 0, "duration": 209.54385327600176, "output_throughput": 64.41611046553125, "utc": "2026-11-11T04:12:09.790084+00:00", "perf_counter": 406842.612534156}
+{"event": "phase_start", "label": "c1-round1", "count": 512, "utc": "2026-11-11T04:12:09.798409+00:00", "perf_counter": 406842.62085254}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 30.00132089003455, "utc": "2026-11-11T04:12:39.799730+00:00", "perf_counter": 406872.622183731}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 60.00161484803539, "utc": "2026-11-11T04:13:09.800025+00:00", "perf_counter": 406902.622476737}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 90.0018865520251, "utc": "2026-11-11T04:13:39.800296+00:00", "perf_counter": 406932.622741696}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 120.00212667300366, "utc": "2026-11-11T04:14:09.800534+00:00", "perf_counter": 406962.622979059}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 150.00237562600523, "utc": "2026-11-11T04:14:39.800784+00:00", "perf_counter": 406992.623236098}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 180.00265407998813, "utc": "2026-11-11T04:15:09.801062+00:00", "perf_counter": 407022.62350342}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 210.00286252202932, "utc": "2026-11-11T04:15:39.801272+00:00", "perf_counter": 407052.623714808}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 240.00309103698237, "utc": "2026-11-11T04:16:09.801497+00:00", "perf_counter": 407082.623934878}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 270.0032955229981, "utc": "2026-11-11T04:16:39.801701+00:00", "perf_counter": 407112.624137504}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 300.00347233301727, "utc": "2026-11-11T04:17:09.801883+00:00", "perf_counter": 407142.624338173}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 330.00377451698296, "utc": "2026-11-11T04:17:39.802185+00:00", "perf_counter": 407172.624640715}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 360.0040629649884, "utc": "2026-11-11T04:18:09.802471+00:00", "perf_counter": 407202.624914439}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 390.004286875017, "utc": "2026-11-11T04:18:39.802697+00:00", "perf_counter": 407232.625151811}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 420.00458488898585, "utc": "2026-11-11T04:19:09.802995+00:00", "perf_counter": 407262.62544845}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 450.0048830630258, "utc": "2026-11-11T04:19:39.803293+00:00", "perf_counter": 407292.625745472}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 480.0051478240057, "utc": "2026-11-11T04:20:09.803555+00:00", "perf_counter": 407322.625997588}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 510.00538163498277, "utc": "2026-11-11T04:20:39.803788+00:00", "perf_counter": 407352.626224498}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 540.0055816749809, "utc": "2026-11-11T04:21:09.803989+00:00", "perf_counter": 407382.626429272}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 570.0057759250049, "utc": "2026-11-11T04:21:39.804183+00:00", "perf_counter": 407412.626625179}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 600.0059780729935, "utc": "2026-11-11T04:22:09.804388+00:00", "perf_counter": 407442.62684099}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 630.0062806840288, "utc": "2026-11-11T04:22:39.804687+00:00", "perf_counter": 407472.627125479}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 660.0064593739808, "utc": "2026-11-11T04:23:09.804865+00:00", "perf_counter": 407502.627299907}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 690.0066328290268, "utc": "2026-11-11T04:23:39.805043+00:00", "perf_counter": 407532.627497579}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 720.0069223950268, "utc": "2026-11-11T04:24:09.805332+00:00", "perf_counter": 407562.627787739}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 750.0072412270238, "utc": "2026-11-11T04:24:39.805651+00:00", "perf_counter": 407592.628103623}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 780.0075075890054, "utc": "2026-11-11T04:25:09.805915+00:00", "perf_counter": 407622.62835617}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 810.0077064500074, "utc": "2026-11-11T04:25:39.806116+00:00", "perf_counter": 407652.628568411}
+{"event": "progress", "label": "c1-round1", "elapsed_s": 840.0079758230131, "utc": "2026-11-11T04:26:09.806384+00:00", "perf_counter": 407682.628827198}
+{"event": "phase_end", "label": "c1-round1", "exit_code": 0, "completed": 512, "failed": 0, "duration": 837.9130449499935, "output_throughput": 64.43628050118522, "utc": "2026-11-11T04:26:17.307459+00:00", "perf_counter": 407690.129897348}
+{"event": "phase_start", "label": "c1-round2", "count": 512, "utc": "2026-11-11T04:26:17.313827+00:00", "perf_counter": 407690.136260301}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 30.00066931999754, "utc": "2026-11-11T04:26:47.314502+00:00", "perf_counter": 407720.136956827}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 60.00100826495327, "utc": "2026-11-11T04:27:17.314841+00:00", "perf_counter": 407750.137294035}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 90.00129622395616, "utc": "2026-11-11T04:27:47.315128+00:00", "perf_counter": 407780.137579964}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 120.00159376097145, "utc": "2026-11-11T04:28:17.315426+00:00", "perf_counter": 407810.137878336}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 150.0019100799691, "utc": "2026-11-11T04:28:47.315742+00:00", "perf_counter": 407840.138195434}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 180.00220609799726, "utc": "2026-11-11T04:29:17.316035+00:00", "perf_counter": 407870.138473457}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 210.0023999469704, "utc": "2026-11-11T04:29:47.316228+00:00", "perf_counter": 407900.138664996}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 240.00256469700253, "utc": "2026-11-11T04:30:17.316393+00:00", "perf_counter": 407930.138829837}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 270.00273944297805, "utc": "2026-11-11T04:30:47.316572+00:00", "perf_counter": 407960.139064358}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 300.0030582539621, "utc": "2026-11-11T04:31:17.316888+00:00", "perf_counter": 407990.139330977}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 330.0032783149509, "utc": "2026-11-11T04:31:47.317110+00:00", "perf_counter": 408020.139563291}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 360.00359712797217, "utc": "2026-11-11T04:32:17.317447+00:00", "perf_counter": 408050.139895325}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 390.0039636399597, "utc": "2026-11-11T04:32:47.317792+00:00", "perf_counter": 408080.140234276}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 420.0041655199602, "utc": "2026-11-11T04:33:17.317998+00:00", "perf_counter": 408110.140460505}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 450.00448961398797, "utc": "2026-11-11T04:33:47.318322+00:00", "perf_counter": 408140.140780821}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 480.004796343972, "utc": "2026-11-11T04:34:17.318629+00:00", "perf_counter": 408170.141083729}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 510.0050895999884, "utc": "2026-11-11T04:34:47.318919+00:00", "perf_counter": 408200.141359994}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 540.0052957679727, "utc": "2026-11-11T04:35:17.319129+00:00", "perf_counter": 408230.141588239}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 570.0056046789978, "utc": "2026-11-11T04:35:47.319436+00:00", "perf_counter": 408260.141880934}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 600.0058738349471, "utc": "2026-11-11T04:36:17.319704+00:00", "perf_counter": 408290.142149336}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 630.0061116819852, "utc": "2026-11-11T04:36:47.319940+00:00", "perf_counter": 408320.142378594}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 660.0062951849541, "utc": "2026-11-11T04:37:17.320123+00:00", "perf_counter": 408350.14255998}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 690.0064787399606, "utc": "2026-11-11T04:37:47.320311+00:00", "perf_counter": 408380.14276326}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 720.0067989229574, "utc": "2026-11-11T04:38:17.320631+00:00", "perf_counter": 408410.143083093}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 750.0070704809623, "utc": "2026-11-11T04:38:47.320900+00:00", "perf_counter": 408440.143340232}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 780.0072683409671, "utc": "2026-11-11T04:39:17.321097+00:00", "perf_counter": 408470.143539544}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 810.0074676039512, "utc": "2026-11-11T04:39:47.321296+00:00", "perf_counter": 408500.143733786}
+{"event": "progress", "label": "c1-round2", "elapsed_s": 840.0076453639776, "utc": "2026-11-11T04:40:17.321475+00:00", "perf_counter": 408530.14392433}
+{"event": "phase_end", "label": "c1-round2", "exit_code": 0, "completed": 512, "failed": 0, "duration": 837.771911539021, "output_throughput": 64.44713561811174, "utc": "2026-11-11T04:40:24.668768+00:00", "perf_counter": 408537.491206466}
+{"event": "phase_start", "label": "c1-round3", "count": 512, "utc": "2026-11-11T04:40:24.674906+00:00", "perf_counter": 408537.497338775}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 30.000648188986816, "utc": "2026-11-11T04:40:54.675560+00:00", "perf_counter": 408567.498030699}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 60.00096333399415, "utc": "2026-11-11T04:41:24.675872+00:00", "perf_counter": 408597.498314576}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 90.00116773694754, "utc": "2026-11-11T04:41:54.676076+00:00", "perf_counter": 408627.498515258}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 120.00134344096296, "utc": "2026-11-11T04:42:24.676251+00:00", "perf_counter": 408657.498687637}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 150.00151289999485, "utc": "2026-11-11T04:42:54.676421+00:00", "perf_counter": 408687.498861914}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 180.00169581000227, "utc": "2026-11-11T04:43:24.676603+00:00", "perf_counter": 408717.499050397}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 210.00186926795868, "utc": "2026-11-11T04:43:54.676776+00:00", "perf_counter": 408747.499214243}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 240.00204122799914, "utc": "2026-11-11T04:44:24.676949+00:00", "perf_counter": 408777.499386195}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 270.00221580499783, "utc": "2026-11-11T04:44:54.677127+00:00", "perf_counter": 408807.499578466}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 300.0025016559521, "utc": "2026-11-11T04:45:24.677411+00:00", "perf_counter": 408837.499854655}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 330.00269926094916, "utc": "2026-11-11T04:45:54.677608+00:00", "perf_counter": 408867.500047905}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 360.00287216098513, "utc": "2026-11-11T04:46:24.677779+00:00", "perf_counter": 408897.500215041}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 390.0030326349661, "utc": "2026-11-11T04:46:54.677940+00:00", "perf_counter": 408927.500385166}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 420.0032024179818, "utc": "2026-11-11T04:47:24.678110+00:00", "perf_counter": 408957.500544953}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 450.00335654296214, "utc": "2026-11-11T04:47:54.678262+00:00", "perf_counter": 408987.500696658}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 480.0035048389691, "utc": "2026-11-11T04:48:24.678411+00:00", "perf_counter": 409017.500847189}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 510.0036974969553, "utc": "2026-11-11T04:48:54.678609+00:00", "perf_counter": 409047.501064529}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 540.0039796639467, "utc": "2026-11-11T04:49:24.678887+00:00", "perf_counter": 409077.501325734}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 570.004158744996, "utc": "2026-11-11T04:49:54.679065+00:00", "perf_counter": 409107.501501994}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 600.0043202949455, "utc": "2026-11-11T04:50:24.679226+00:00", "perf_counter": 409137.501660534}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 630.0044754729606, "utc": "2026-11-11T04:50:54.679382+00:00", "perf_counter": 409167.501816019}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 660.0046232099994, "utc": "2026-11-11T04:51:24.679529+00:00", "perf_counter": 409197.501961866}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 690.0047896949691, "utc": "2026-11-11T04:51:54.679695+00:00", "perf_counter": 409227.502128294}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 720.0049296829966, "utc": "2026-11-11T04:52:24.679835+00:00", "perf_counter": 409257.50226811}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 750.0050750179798, "utc": "2026-11-11T04:52:54.679981+00:00", "perf_counter": 409287.502415789}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 780.0052256379859, "utc": "2026-11-11T04:53:24.680131+00:00", "perf_counter": 409317.502564325}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 810.005372448999, "utc": "2026-11-11T04:53:54.680278+00:00", "perf_counter": 409347.502713034}
+{"event": "progress", "label": "c1-round3", "elapsed_s": 840.0055304749985, "utc": "2026-11-11T04:54:24.680438+00:00", "perf_counter": 409377.50287665}
+{"event": "phase_end", "label": "c1-round3", "exit_code": 0, "completed": 512, "failed": 0, "duration": 837.6115966719808, "output_throughput": 64.45947049267507, "utc": "2026-11-11T04:54:32.030611+00:00", "perf_counter": 409384.853051806}
+{"event": "phase_start", "label": "c8-warmup", "count": 128, "utc": "2026-11-11T04:54:32.036909+00:00", "perf_counter": 409384.859342368}
+{"event": "progress", "label": "c8-warmup", "elapsed_s": 30.00070840603439, "utc": "2026-11-11T04:55:02.037623+00:00", "perf_counter": 409414.860077299}
+{"event": "phase_end", "label": "c8-warmup", "exit_code": 0, "completed": 128, "failed": 0, "duration": 27.97687978600152, "output_throughput": 483.54212848170636, "utc": "2026-11-11T04:55:09.536177+00:00", "perf_counter": 409422.35863201}
+{"event": "phase_start", "label": "c8-round1", "count": 512, "utc": "2026-11-11T04:55:09.554240+00:00", "perf_counter": 409422.376684695}
+{"event": "progress", "label": "c8-round1", "elapsed_s": 30.00115778000327, "utc": "2026-11-11T04:55:39.555399+00:00", "perf_counter": 409452.377852402}
+{"event": "progress", "label": "c8-round1", "elapsed_s": 60.001489267044235, "utc": "2026-11-11T04:56:09.555729+00:00", "perf_counter": 409482.378184641}
+{"event": "progress", "label": "c8-round1", "elapsed_s": 90.0017471940373, "utc": "2026-11-11T04:56:39.555986+00:00", "perf_counter": 409512.378427393}
+{"event": "phase_end", "label": "c8-round1", "exit_code": 0, "completed": 512, "failed": 0, "duration": 108.2764161460218, "output_throughput": 499.342349187889, "utc": "2026-11-11T04:57:07.504271+00:00", "perf_counter": 409540.326720976}
+{"event": "phase_start", "label": "c8-round2", "count": 512, "utc": "2026-11-11T04:57:07.511367+00:00", "perf_counter": 409540.33380614}
+{"event": "progress", "label": "c8-round2", "elapsed_s": 30.000870760006364, "utc": "2026-11-11T04:57:37.512242+00:00", "perf_counter": 409570.334697393}
+{"event": "progress", "label": "c8-round2", "elapsed_s": 60.0011688490049, "utc": "2026-11-11T04:58:07.512540+00:00", "perf_counter": 409600.334992505}
+{"event": "progress", "label": "c8-round2", "elapsed_s": 90.0014720079489, "utc": "2026-11-11T04:58:37.512843+00:00", "perf_counter": 409630.335296841}
+{"event": "phase_end", "label": "c8-round2", "exit_code": 0, "completed": 512, "failed": 0, "duration": 108.33062396699097, "output_throughput": 499.1663300718825, "utc": "2026-11-11T04:59:05.490467+00:00", "perf_counter": 409658.312906307}
+{"event": "phase_start", "label": "c8-round3", "count": 512, "utc": "2026-11-11T04:59:05.496821+00:00", "perf_counter": 409658.319259833}
+{"event": "progress", "label": "c8-round3", "elapsed_s": 30.000702933990397, "utc": "2026-11-11T04:59:35.497530+00:00", "perf_counter": 409688.319992379}
+{"event": "progress", "label": "c8-round3", "elapsed_s": 60.00104369898327, "utc": "2026-11-11T05:00:05.497870+00:00", "perf_counter": 409718.320324474}
+{"event": "progress", "label": "c8-round3", "elapsed_s": 90.00132990896236, "utc": "2026-11-11T05:00:35.498156+00:00", "perf_counter": 409748.320609112}
+{"event": "phase_end", "label": "c8-round3", "exit_code": 0, "completed": 512, "failed": 0, "duration": 108.31197134195827, "output_throughput": 499.2522925215399, "utc": "2026-11-11T05:01:03.470834+00:00", "perf_counter": 409776.293275163}
+{"event": "phase_start", "label": "c32-warmup", "count": 128, "utc": "2026-11-11T05:01:03.476989+00:00", "perf_counter": 409776.299421008}
+{"event": "phase_end", "label": "c32-warmup", "exit_code": 0, "completed": 128, "failed": 0, "duration": 8.66421039198758, "output_throughput": 1557.9030736006332, "utc": "2026-11-11T05:01:21.525499+00:00", "perf_counter": 409794.34793815}
+{"event": "phase_start", "label": "c32-round1", "count": 512, "utc": "2026-11-11T05:01:21.530361+00:00", "perf_counter": 409794.352793345}
+{"event": "progress", "label": "c32-round1", "elapsed_s": 30.000629176967777, "utc": "2026-11-11T05:01:51.530996+00:00", "perf_counter": 409824.353450371}
+{"event": "phase_end", "label": "c32-round1", "exit_code": 0, "completed": 512, "failed": 0, "duration": 31.17193465901073, "output_throughput": 1729.472379232522, "utc": "2026-11-11T05:02:03.035674+00:00", "perf_counter": 409835.858113716}
+{"event": "phase_start", "label": "c32-round2", "count": 512, "utc": "2026-11-11T05:02:03.041473+00:00", "perf_counter": 409835.863910649}
+{"event": "progress", "label": "c32-round2", "elapsed_s": 30.000711343018338, "utc": "2026-11-11T05:02:33.042190+00:00", "perf_counter": 409865.864646577}
+{"event": "phase_end", "label": "c32-round2", "exit_code": 0, "completed": 512, "failed": 0, "duration": 31.424965337035246, "output_throughput": 1717.1379322543078, "utc": "2026-11-11T05:02:44.535149+00:00", "perf_counter": 409877.357596025}
+{"event": "phase_start", "label": "c32-round3", "count": 512, "utc": "2026-11-11T05:02:44.542777+00:00", "perf_counter": 409877.365216018}
+{"event": "progress", "label": "c32-round3", "elapsed_s": 30.00094199302839, "utc": "2026-11-11T05:03:14.543724+00:00", "perf_counter": 409907.366177928}
+{"event": "phase_end", "label": "c32-round3", "exit_code": 0, "completed": 512, "failed": 0, "duration": 31.297182582027745, "output_throughput": 1720.9855826105572, "utc": "2026-11-11T05:03:25.533487+00:00", "perf_counter": 409918.355934262}
+{"event": "phase_start", "label": "c64-warmup", "count": 128, "utc": "2026-11-11T05:03:25.540763+00:00", "perf_counter": 409918.363201929}
+{"event": "phase_end", "label": "c64-warmup", "exit_code": 0, "completed": 128, "failed": 0, "duration": 4.905594587966334, "output_throughput": 2746.0483654815316, "utc": "2026-11-11T05:03:40.051695+00:00", "perf_counter": 409932.87414998}
+{"event": "phase_start", "label": "c64-round1", "count": 512, "utc": "2026-11-11T05:03:40.062858+00:00", "perf_counter": 409932.885303585}
+{"event": "phase_end", "label": "c64-round1", "exit_code": 0, "completed": 512, "failed": 0, "duration": 17.565367947972845, "output_throughput": 3071.8400069852846, "utc": "2026-11-11T05:04:07.312856+00:00", "perf_counter": 409960.135302539}
+{"event": "phase_start", "label": "c64-round2", "count": 512, "utc": "2026-11-11T05:04:07.318595+00:00", "perf_counter": 409960.141033777}
+{"event": "phase_end", "label": "c64-round2", "exit_code": 0, "completed": 512, "failed": 0, "duration": 17.457948603027035, "output_throughput": 3089.5955318970114, "utc": "2026-11-11T05:04:34.498350+00:00", "perf_counter": 409987.320789832}
+{"event": "phase_start", "label": "c64-round3", "count": 512, "utc": "2026-11-11T05:04:34.504668+00:00", "perf_counter": 409987.327101201}
+{"event": "phase_end", "label": "c64-round3", "exit_code": 0, "completed": 512, "failed": 0, "duration": 17.553592440031935, "output_throughput": 3071.7928642931342, "utc": "2026-11-11T05:05:01.830203+00:00", "perf_counter": 410014.652643133}

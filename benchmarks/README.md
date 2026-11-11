@@ -7,20 +7,24 @@
 ```text
 benchmarks/
 ├── prompts/
-│   └── smoke.jsonl      # 小规模冒烟 prompt 集
+│   ├── smoke.jsonl          # 8 条冒烟 prompt，保留旧输入
+│   ├── baseline-v1.jsonl    # 128 条默认混合任务，输出上限统一
+│   └── README.md            # 内容、长度统计与前缀缓存实验约定
 ├── results/             # 小体积结果（CSV/JSON/PNG），大日志不入库
 └── README.md
 ```
 
 ## prompt 集
 
-`prompts/smoke.jsonl` 每行一个 JSON：
+两个输入集均每行一个 JSON，客户端要求以下字段：
 
 ```json
 {"prompt": "...", "output_tokens": 128}
 ```
 
-用途：快速冒烟与 A/B 对照。正式实验应固定同一份 prompt 集，不要中途更换。
+`smoke.jsonl` 用于快速冒烟；客户端默认使用 `baseline-v1.jsonl`，覆盖 8 类任务，
+每类 16 条。正式实验应固定同一份 prompt 集，不要中途更换。
+数据设计、实际 token 长度和缓存开关建议见 [prompts/README.md](prompts/README.md)。
 
 > `vllm bench serve` 的自定义数据集参数在不同版本中可能变化（`--dataset-name custom`、`--dataset-path` 等）。使用前以 `vllm bench serve --help` 为准。
 

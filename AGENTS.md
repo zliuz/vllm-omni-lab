@@ -25,6 +25,13 @@
 3. **版本锁定**：vLLM 固定 release tag；vLLM-Omni 固定 commit，并以它 `pyproject.toml` 中锁定的 vLLM 版本为准。升级版本必须记录原因与前后结果。
 4. **模型来源**：权重不进入仓库；国内网络优先 HF 镜像（`HF_ENDPOINT=https://hf-mirror.com`）或 ModelScope。
 5. **不确定性**：模型支持列表、CLI 参数、源码路径随版本变化。执行前以 `external/` 中实际代码与 README 为准，不要凭记忆断言。
+6. **本机环境特殊性**（2026-11-08 实测）：
+   - **GPU0 可能被其他用户的 SGLang 占用**（约 16GB）。运行前先 `nvidia-smi`；单卡任务优先 `CUDA_VISIBLE_DEVICES=1`，并与占卡用户协调。
+   - **系统 Python 缺 `Python.h`**（无 `python3.12-dev`）。`.venv` 使用 **uv-managed Python 3.12.16**；禁止用 `/usr/bin/python3` 重建 `.venv`，否则 Triton JIT 会失败。
+   - **Hugging Face 直连超时**：下载模型/权重时设置 `HF_ENDPOINT=https://hf-mirror.com`。
+   - **GitHub 直连超时**：克隆源码、下载 FlashInfer kernel 时设置 `HTTP_PROXY/HTTPS_PROXY=http://127.0.0.1:27897`。
+   - **vLLM 使用 spawn 多进程**：脚本必须保存为文件后运行；`python - <<'PY'` 会因无法导入 `<stdin>` 而失败。
+   - 固定版本见 `requirements-vllm.txt`（vLLM 0.32.0 + vLLM-Omni 0.32.0），两者必须成对升级。
 
 ## 3. 目录职责
 

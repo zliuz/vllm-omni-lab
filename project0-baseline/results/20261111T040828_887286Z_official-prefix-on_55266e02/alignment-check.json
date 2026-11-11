@@ -1,0 +1,29 @@
+{
+  "dataset_checks": [
+    {
+      "file": "prompts-128-source.jsonl",
+      "count": 128,
+      "raw_prompts_in_expected_order": true,
+      "output_cap_128": true,
+      "no_client_chat_template": true
+    },
+    {
+      "file": "prompts-512-in-order.jsonl",
+      "count": 512,
+      "raw_prompts_in_expected_order": true,
+      "output_cap_128": true,
+      "no_client_chat_template": true
+    }
+  ],
+  "model_config_hashes_match_custom_run": {
+    "config.json": {
+      "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+    },
+    "generation_config.json": {
+      "sha256": "3a8f9087e486054c8a4a08dae2e5a3ba62e23da212b5b8c08bc42cb983c3459f"
+    },
+    "tokenizer_config.json": {
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+    }
+  }
+}
